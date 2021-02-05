@@ -5544,7 +5544,7 @@ ELEMENTS STYLE
 }
 
 .finax-accordions .accordion-item.active .accordion-heading > .inner:before {
-    transform: rotate(180deg);
+    
 }
 
 .finax-accordions .accordion-item.active-dark .accordion-heading {
