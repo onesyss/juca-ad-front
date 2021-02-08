@@ -5146,7 +5146,7 @@ form.login .lost_password {
 }
 
 #scroll-top:after {
-    content: "\e910";
+    /*content: "\e910"; seta subir home*/
     font-family: "core-icons";
     color: #fff;
     font-size: 14px;
@@ -5530,7 +5530,8 @@ ELEMENTS STYLE
 }
 
 .finax-accordions .accordion-item .accordion-heading > .inner:before {
-    content: "\e977";
+    /* content: "\e977"; */
+    background-image: url("../assets/img/subir.svg");
     font-family: "Finax Icons";
     color: #bbb;
     position: absolute;
