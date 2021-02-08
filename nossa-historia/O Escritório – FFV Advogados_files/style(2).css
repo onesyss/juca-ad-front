@@ -2275,6 +2275,8 @@ form.login .lost_password {
     color: #fe7e4b;
 }
 
+/* seta submenu mobile */
+
 #main-nav-mobi .menu-item-has-children .arrow {
     cursor: pointer;
     display: inline-block;
@@ -2289,7 +2291,9 @@ form.login .lost_password {
 }
 
 #main-nav-mobi .menu-item-has-children .arrow:before {
-    content: "\e90f";
+    content: "\e912";
+    /* content: "fas fa-arrow-down"; */
+
     color: #a9a9a9;
 }
 

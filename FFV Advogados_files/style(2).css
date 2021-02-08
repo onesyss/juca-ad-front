@@ -5531,7 +5531,7 @@ ELEMENTS STYLE
 
 .finax-accordions .accordion-item .accordion-heading > .inner:before {
     /* content: "\e977"; */
-    background-image: url("../assets/img/subir.svg");
+    /* background-image: url("../assets/img/subir.svg"); */
     font-family: "Finax Icons";
     color: #bbb;
     position: absolute;
