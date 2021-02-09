@@ -2295,6 +2295,7 @@ form.login .lost_password {
 
 #main-nav-mobi .menu-item-has-children .arrow.active:before {
     content: "\e912";
+    
 }
 
 #main-nav-mobi ul ul li {
