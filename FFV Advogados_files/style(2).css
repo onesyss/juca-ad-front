@@ -2056,9 +2056,10 @@ form.login .lost_password {
 
 /* Sub Menu */
 
+/* Cores sub-menu web */
 #main-nav .sub-menu {
     padding: 18px 0;
-    background-color: #1e2022;
+    background-color: #301c1c;
     position: absolute;
     left: 0;
     top: 100%;
@@ -2233,6 +2234,7 @@ form.login .lost_password {
 
 /* Mobile Menu */
 
+/* Cores do menu mobile */
 #main-nav-mobi {
     display: block;
     margin: 0 auto;
@@ -2241,7 +2243,7 @@ form.login .lost_password {
     left: 0;
     top: 100%;
     z-index: 999999;
-    background-color: #1e2022;
+    background-color: #301c1c;
 }
 
 #main-nav-mobi ul {
@@ -2289,12 +2291,21 @@ form.login .lost_password {
 }
 
 #main-nav-mobi .menu-item-has-children .arrow:before {
-    content: "\e90f";
+    content: url("../assets/img/baixo.png");
+    font-weight: bold;
     color: #a9a9a9;
+    width: 10px;
+    position: relative;
+    left: 0px;
+    top: 80%;
+    
+    
 }
 
 #main-nav-mobi .menu-item-has-children .arrow.active:before {
-    content: "\e912";
+    /* content: "\e912"; */
+    content: url("../assets/img/subir-icon.png");
+    font-weight: bold;
     
 }
 
@@ -2323,7 +2334,7 @@ form.login .lost_password {
     width: 100%;
     margin-bottom: 0;
     padding: 7px 25px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(110, 34, 34, 0.1);
     border: 0;
     color: #fff;
 }
@@ -5147,11 +5158,11 @@ form.login .lost_password {
 }
 
 #scroll-top:after {
-    /*content: "\e910"; seta subir home*/
+    content: url("../assets/img/subir-icon.png");
     font-family: "core-icons";
     color: #fff;
     font-size: 14px;
-    position: absolute;
+    position: relative;
     left: 0;
     top: 0;
     width: 100%;
@@ -5531,7 +5542,7 @@ ELEMENTS STYLE
 }
 
 .finax-accordions .accordion-item .accordion-heading > .inner:before {
-    /* content: "\e977"; */
+    content: url("../assets/img/baixo.png");
     /* background-image: url("../assets/img/subir.svg"); */
     font-family: "Finax Icons";
     color: #bbb;
@@ -5546,7 +5557,7 @@ ELEMENTS STYLE
 }
 
 .finax-accordions .accordion-item.active .accordion-heading > .inner:before {
-    
+    content: url("../assets/img/subir-icon.png");
 }
 
 .finax-accordions .accordion-item.active-dark .accordion-heading {

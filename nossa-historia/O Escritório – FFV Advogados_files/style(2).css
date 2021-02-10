@@ -2241,7 +2241,7 @@ form.login .lost_password {
     left: 0;
     top: 100%;
     z-index: 999999;
-    background-color: #1e2022;
+    background-color: #301c1c;
 }
 
 #main-nav-mobi ul {
@@ -2291,14 +2291,22 @@ form.login .lost_password {
 }
 
 #main-nav-mobi .menu-item-has-children .arrow:before {
-    content: "\e912";
-    /* content: "fas fa-arrow-down"; */
-
+    content: url("../../assets/img/baixo.png");
+    font-weight: bold;
     color: #a9a9a9;
+    width: 10px;
+    position: relative;
+    left: 0px;
+    top: 80%;
+    
+    
 }
 
 #main-nav-mobi .menu-item-has-children .arrow.active:before {
-    content: "\e912";
+    /* content: "\e912"; */
+    content: url("../../assets/img/subir-icon.png");
+    font-weight: bold;
+    
 }
 
 #main-nav-mobi ul ul li {
