@@ -2058,7 +2058,7 @@ form.login .lost_password {
 
 #main-nav .sub-menu {
     padding: 18px 0;
-    background-color: #1e2022;
+    background-color: #301c1c;
     position: absolute;
     left: 0;
     top: 100%;
@@ -2660,7 +2660,7 @@ form.login .lost_password {
 
 #site-header.is-fixed,
 .header-style-4 #site-header.is-fixed .finax-container {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(235, 15, 15, 0.1);
 }
 
 

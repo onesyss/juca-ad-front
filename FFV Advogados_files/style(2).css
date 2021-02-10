@@ -2660,7 +2660,7 @@ form.login .lost_password {
 
 #site-header.is-fixed,
 .header-style-4 #site-header.is-fixed .finax-container {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(202, 6, 6, 0.1);
 }
 
 
@@ -5176,7 +5176,7 @@ form.login .lost_password {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #36383c;
+    background-color:#3a2e2e;
     z-index: -1;
     transition: all ease 0.3s;
 }
