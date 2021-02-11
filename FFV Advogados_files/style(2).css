@@ -5163,8 +5163,8 @@ form.login .lost_password {
     color: #fff;
     font-size: 14px;
     position: relative;
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 2px;
     width: 100%;
     transition: all ease 0.3s;
 }
