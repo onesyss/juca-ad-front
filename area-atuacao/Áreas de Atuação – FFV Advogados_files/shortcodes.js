@@ -966,7 +966,7 @@
     };
 
     var animateWOW =  function() {
-        new WOW().init();
+        // new WOW().init();
     };
 
     // Dom Ready
