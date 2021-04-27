@@ -426,3 +426,15 @@ code {
     margin-bottom:10px;
   }
 } /* End 1023px */
+
+@media ( max-width:600px ) {
+  .responsividade1 {
+    grid: template columns 1fr;
+  }
+  .responsividade2 {
+    grid: template columns 1fr;
+  }
+  .responsividade3 { 
+    grid: template columns 1fr;
+  }
+}
